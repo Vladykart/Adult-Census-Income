@@ -1,4 +1,4 @@
-#Adult-Census-Income
+# Adult-Census-Income
 Predict whether income exceeds $50K/yr based on census data
 
 [This data](https://www.kaggle.com/uciml/adult-census-income) was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). The prediction task is to determine whether a person makes over $50K a year.
@@ -17,5 +17,24 @@ We use all three sets of controls in our weighting program and "rake" through th
 Relevant papers
 Ron Kohavi, "Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid", Proceedings of the Second International Conference on Knowledge Discovery and Data Mining, 1996. (PDF)
 
+# RESULT:
+LR   -> LogisticRegression
+LDA  -> LinearDiscriminantAnalysis
+KNN  -> KNeighborsClassifier
+CART -> DecisionTreeClassifier
+NB   -> GaussianNB
+RF   -> RandomForestClassifier
+GBC  -> GradientBoostingClassifier
+XGB  -> XGBClassifier
+
+| Model | Accuracy | 
+  LR  :   0.841 
+  LDA :   0.831 
+  KNN :   0.842 
+  CART:   0.810 
+  NB  :   0.799 
+  RF  :   0.843 
+  GBC:   0.865 
+  XGB:   0.859 
 
 ![alt text](https://github.com/Vladykart/Adult-Census-Income/blob/master/output_32_0.png)

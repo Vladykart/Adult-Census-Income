@@ -17,24 +17,24 @@ We use all three sets of controls in our weighting program and "rake" through th
 Relevant papers
 Ron Kohavi, "Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid", Proceedings of the Second International Conference on Knowledge Discovery and Data Mining, 1996. (PDF)
 
-# RESULT:
-LR   -> LogisticRegression
-LDA  -> LinearDiscriminantAnalysis
-KNN  -> KNeighborsClassifier
-CART -> DecisionTreeClassifier
-NB   -> GaussianNB
-RF   -> RandomForestClassifier
-GBC  -> GradientBoostingClassifier
-XGB  -> XGBClassifier
+# RESULT: <br>
+LR   -> LogisticRegression<br>
+LDA  -> LinearDiscriminantAnalysis<br>
+KNN  -> KNeighborsClassifier<br>
+CART -> DecisionTreeClassifier<br>
+NB   -> GaussianNB<br>
+RF   -> RandomForestClassifier<br>
+GBC  -> GradientBoostingClassifier<br>
+XGB  -> XGBClassifier<br>
 
-| Model | Accuracy | 
-  LR  :   0.841 
-  LDA :   0.831 
-  KNN :   0.842 
-  CART:   0.810 
-  NB  :   0.799 
-  RF  :   0.843 
-  GBC:   0.865 
-  XGB:   0.859 
+| Model | Accuracy |<br> 
+  LR  :   0.841 <br>
+  LDA :   0.831 <br>
+  KNN :   0.842 <br>
+  CART:   0.810 <br>
+  NB  :   0.799 <br>
+  RF  :   0.843 <br>
+  GBC:   0.865 <br>
+  XGB:   0.859 <br>
 
 ![alt text](https://github.com/Vladykart/Adult-Census-Income/blob/master/output_32_0.png)

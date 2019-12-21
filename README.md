@@ -16,3 +16,6 @@ We use all three sets of controls in our weighting program and "rake" through th
 
 Relevant papers
 Ron Kohavi, "Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid", Proceedings of the Second International Conference on Knowledge Discovery and Data Mining, 1996. (PDF)
+
+
+![alt text](https://github.com/Vladykart/Adult-Census-Income/blob/master/output_32_0.png)
